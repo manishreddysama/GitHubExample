@@ -14,6 +14,7 @@
 		9BCEFFF31B86EE430036794D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCEFFF11B86EE430036794D /* Main.storyboard */; };
 		9BCEFFF51B86EE430036794D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCEFFF41B86EE430036794D /* Images.xcassets */; };
 		9BCEFFF81B86EE430036794D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCEFFF61B86EE430036794D /* LaunchScreen.xib */; };
+		9BD26FB31B875EB900D5D971 /* MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD26FB21B875EB900D5D971 /* MapForItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9BCEFFF41B86EE430036794D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9BCEFFF71B86EE430036794D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9BCEFFFD1B86EE430036794D /* GitHubExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD26FB11B875EB900D5D971 /* MapForItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItinerary.h; sourceTree = "<group>"; };
+		9BD26FB21B875EB900D5D971 /* MapForItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItinerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				9BCEFFEC1B86EE430036794D /* AppDelegate.m */,
 				9BCEFFEE1B86EE430036794D /* ViewController.h */,
 				9BCEFFEF1B86EE430036794D /* ViewController.m */,
+				9BD26FB11B875EB900D5D971 /* MapForItinerary.h */,
+				9BD26FB21B875EB900D5D971 /* MapForItinerary.m */,
 				9BCEFFF11B86EE430036794D /* Main.storyboard */,
 				9BCEFFF41B86EE430036794D /* Images.xcassets */,
 				9BCEFFF61B86EE430036794D /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD26FB31B875EB900D5D971 /* MapForItinerary.m in Sources */,
 				9BCEFFF01B86EE430036794D /* ViewController.m in Sources */,
 				9BCEFFED1B86EE430036794D /* AppDelegate.m in Sources */,
 				9BCEFFEA1B86EE430036794D /* main.m in Sources */,
@@ -409,6 +415,7 @@
 				9BCE00091B86EE430036794D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BCE000A1B86EE430036794D /* Build configuration list for PBXNativeTarget "GitHubExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				9BCE000C1B86EE430036794D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BCEFFDF1B86EE430036794D /* Build configuration list for PBXProject "GitHubExample" */ = {
 			isa = XCConfigurationList;
