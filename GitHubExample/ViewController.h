@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)clickHere:(id)sender;
+
 
 @end
 

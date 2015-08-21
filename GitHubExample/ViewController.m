@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)clickHere:(id)sender {
+    
+    NSLog(@"This is Git Hub Tutorial");
+    
+}
 @end
